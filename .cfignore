@@ -1,0 +1,4 @@
+node_modules
+*.bak
+content/data/*.db
+Gruntfile.js
