@@ -8,8 +8,8 @@ var cfenv = require('cfenv'),
     config;
 
 var appEnv = cfenv.getAppEnv();
-var dbCreds;
-var cloudantCreds;
+var dbCreds = {},
+    cloudantCreds = {};
 
 if (process.env.VCAP_SERVICES) {
     var services = JSON.parse(process.env.VCAP_SERVICES);

@@ -10,5 +10,5 @@ applications:
   env:
     NODE_ENV: production
   services:
-  - cleardb
-  - cloudant
+  - ghost-cleardb
+  - ghost-cloudant
